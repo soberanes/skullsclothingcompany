@@ -237,7 +237,7 @@ body{
 }
 
 .footer-wrap{
-	background: url('images/skulls/banner_rojo.png') center center repeat-x;
+	background: url('images/skulls/footer_rojo.jpg') center center repeat-x;
         height: 365px;
 	margin: 0;
         padding: 0;
@@ -767,6 +767,17 @@ a{
 .myaccount_user strong{
 	color: red;
 	text-transform: capitalize;
+}
+#media_content{
+    height: 315px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;
+}
+#media_content iframe, #media_content object, #media_content embed { position: absolute; top: 0; left: 0; width: 100%; height: 70%; }
+#media_content #media_item{
+    
 }
 /* Beat */
 #heart{

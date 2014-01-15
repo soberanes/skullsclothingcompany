@@ -18,12 +18,13 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
 	
 ?>
     <div id="content">
-        <div class="camera_wrap">
-            <div data-src="<?php echo get_bloginfo('template_directory'); ?>/images/skulls/slider/slide.png"></div>
-            <div data-src="<?php echo get_bloginfo('template_directory'); ?>/images/skulls/slider/slide2.png"></div>
-            <div data-src="<?php echo get_bloginfo('template_directory'); ?>/images/skulls/slider/slide3.png"></div>
+        <?php 
+        //[camera slideshow='my-first-slideshow'] 
+        echo do_shortcode("[camera slideshow='media']");
+        ?>
+        <div id="media_content">
+            <iframe id="media_item" width="560" height="315" src="//www.youtube.com/embed/dEZWgSEWBWA?rel=0&vq=hd1080" frameborder="0" allowfullscreen></iframe>
         </div>
-
     </div><!-- /#content -->
 		
 <?php get_footer(); ?>

@@ -35,12 +35,12 @@ global $woo_options, $woocommerce;
 <script src="<?php echo get_bloginfo('template_directory'); ?>/includes/js/jquery.flexslider-min.js"></script>
 <script src="<?php echo get_bloginfo('template_directory'); ?>/includes/js/masonry.js"></script>
 <script src="<?php echo get_bloginfo('template_directory'); ?>/includes/js/detectmobilebrowser.js"></script>
+<script src="<?php echo get_bloginfo('template_directory'); ?>/includes/js/jquery.easing.1.3.js"></script>
 <script src="<?php echo get_bloginfo('template_directory'); ?>/includes/js/camera.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
 <?php woo_top(); ?>
-
 <div id="wrapper">
 
     <?php woo_header_before(); ?>

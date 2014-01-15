@@ -22,7 +22,7 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
     
     	<?php woo_main_before(); ?>
     
-		<div class="flexslider">
+<!--		<div class="flexslider">
 			<ul class="slides">
 				<li><img src="<?php echo get_bloginfo('template_directory'); ?>/images/skulls/slider/slide.png" /></li>
 				<li><img src="<?php echo get_bloginfo('template_directory'); ?>/images/skulls/slider/slide2.png" /></li>
@@ -30,7 +30,14 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
 				<li><img src="<?php echo get_bloginfo('template_directory'); ?>/images/skulls/slider/slide4.png" /></li>
 				<li><img src="<?php echo get_bloginfo('template_directory'); ?>/images/skulls/slider/slide5.png" /></li>
 			</ul>
-		</div>
+		</div>-->
+                <div id="index_slider" class="camera_wrap">
+                    <div data-src="<?php echo get_bloginfo('template_directory'); ?>/images/skulls/slider/slide.png"></div>
+                    <div data-src="<?php echo get_bloginfo('template_directory'); ?>/images/skulls/slider/slide2.png"></div>
+                    <div data-src="<?php echo get_bloginfo('template_directory'); ?>/images/skulls/slider/slide3.png"></div>
+                    <div data-src="<?php echo get_bloginfo('template_directory'); ?>/images/skulls/slider/slide4.png"></div>
+                    <div data-src="<?php echo get_bloginfo('template_directory'); ?>/images/skulls/slider/slide5.png"></div>
+                </div>
 		<div class="clearfix"></div>
 		<div class="feature_title">Featured Products</div>
                 <div class="feature_item poket_shirts" data-href="<?= get_bloginfo('url');?>/?product_cat=pocket-shirts"></div>

@@ -11,10 +11,15 @@ jQuery(document).ready(function($) {
         });
     }
     
-    jQuery('.camera_wrap').camera({ //here I declared some settings, the height and the presence of the thumbnails 
+    jQuery('#index_slider').camera({ //here I declared some settings, the height and the presence of the thumbnails 
             height: '41%',
             pagination: true,
-            thumbnails: true
+            thumbnails: false,
+            pagination: false,
+            playPause: false,
+            loader: 'none',
+            navigationHover: true,
+            fx: 'simpleFade'
     });
 
     //Products animation
